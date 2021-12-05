@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Amin\\Personal\\Programming\\Project\\Demo\\DDD\\DDD.Tests\\DDD.Tests.csproj": {}
+  },
+  "projects": {
+    "F:\\Amin\\Personal\\Programming\\Project\\Demo\\DDD\\DDD.Logic\\DDD.Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Amin\\Personal\\Programming\\Project\\Demo\\DDD\\DDD.Logic\\DDD.Logic.csproj",
+        "projectName": "DDD.Logic",
+        "projectPath": "F:\\Amin\\Personal\\Programming\\Project\\Demo\\DDD\\DDD.Logic\\DDD.Logic.csproj",
+        "packagesPath": "C:\\Users\\aa\\.nuget\\packages\\",
+        "outputPath": "F:\\Amin\\Personal\\Programming\\Project\\Demo\\DDD\\DDD.Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Amin\\Personal\\Programming\\Project\\Demo\\DDD\\DDD.Tests\\DDD.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Amin\\Personal\\Programming\\Project\\Demo\\DDD\\DDD.Tests\\DDD.Tests.csproj",
+        "projectName": "DDD.Tests",
+        "projectPath": "F:\\Amin\\Personal\\Programming\\Project\\Demo\\DDD\\DDD.Tests\\DDD.Tests.csproj",
+        "packagesPath": "C:\\Users\\aa\\.nuget\\packages\\",
+        "outputPath": "F:\\Amin\\Personal\\Programming\\Project\\Demo\\DDD\\DDD.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Amin\\Personal\\Programming\\Project\\Demo\\DDD\\DDD.Logic\\DDD.Logic.csproj": {
+                "projectPath": "F:\\Amin\\Personal\\Programming\\Project\\Demo\\DDD\\DDD.Logic\\DDD.Logic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.abstractions": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "xunit.assert": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.core": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.extensibility.execution": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

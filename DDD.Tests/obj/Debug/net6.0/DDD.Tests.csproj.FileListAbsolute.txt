@@ -1,0 +1,17 @@
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Tests\bin\Debug\net6.0\DDD.Tests.deps.json
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Tests\bin\Debug\net6.0\DDD.Tests.runtimeconfig.json
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Tests\bin\Debug\net6.0\DDD.Tests.dll
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Tests\bin\Debug\net6.0\ref\DDD.Tests.dll
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Tests\bin\Debug\net6.0\DDD.Tests.pdb
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Tests\bin\Debug\net6.0\DDD.Logic.dll
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Tests\bin\Debug\net6.0\DDD.Logic.pdb
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Tests\obj\Debug\net6.0\DDD.Tests.csproj.AssemblyReference.cache
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Tests\obj\Debug\net6.0\DDD.Tests.GeneratedMSBuildEditorConfig.editorconfig
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Tests\obj\Debug\net6.0\DDD.Tests.AssemblyInfoInputs.cache
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Tests\obj\Debug\net6.0\DDD.Tests.AssemblyInfo.cs
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Tests\obj\Debug\net6.0\DDD.Tests.csproj.CoreCompileInputs.cache
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Tests\obj\Debug\net6.0\DDD.Tests.csproj.CopyComplete
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Tests\obj\Debug\net6.0\DDD.Tests.dll
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Tests\obj\Debug\net6.0\ref\DDD.Tests.dll
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Tests\obj\Debug\net6.0\DDD.Tests.pdb
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Tests\obj\Debug\net6.0\DDD.Tests.genruntimeconfig.cache

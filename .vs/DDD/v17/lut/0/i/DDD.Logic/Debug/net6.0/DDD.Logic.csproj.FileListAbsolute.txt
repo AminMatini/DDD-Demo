@@ -1,0 +1,10 @@
+F:\Amin\Personal\Programming\Project\Demo\DDD\.vs\DDD\v17\lut\0\b\DDD.Logic\Debug\net6.0\DDD.Logic.deps.json
+F:\Amin\Personal\Programming\Project\Demo\DDD\.vs\DDD\v17\lut\0\b\DDD.Logic\Debug\net6.0\DDD.Logic.dll
+F:\Amin\Personal\Programming\Project\Demo\DDD\.vs\DDD\v17\lut\0\b\DDD.Logic\Debug\net6.0\ref\DDD.Logic.dll
+F:\Amin\Personal\Programming\Project\Demo\DDD\.vs\DDD\v17\lut\0\i\DDD.Logic\Debug\net6.0\DDD.Logic.csproj.AssemblyReference.cache
+F:\Amin\Personal\Programming\Project\Demo\DDD\.vs\DDD\v17\lut\0\i\DDD.Logic\Debug\net6.0\DDD.Logic.GeneratedMSBuildEditorConfig.editorconfig
+F:\Amin\Personal\Programming\Project\Demo\DDD\.vs\DDD\v17\lut\0\i\DDD.Logic\Debug\net6.0\DDD.Logic.AssemblyInfoInputs.cache
+F:\Amin\Personal\Programming\Project\Demo\DDD\.vs\DDD\v17\lut\0\i\DDD.Logic\Debug\net6.0\DDD.Logic.AssemblyInfo.cs
+F:\Amin\Personal\Programming\Project\Demo\DDD\.vs\DDD\v17\lut\0\i\DDD.Logic\Debug\net6.0\DDD.Logic.csproj.CopyComplete
+F:\Amin\Personal\Programming\Project\Demo\DDD\.vs\DDD\v17\lut\0\i\DDD.Logic\Debug\net6.0\DDD.Logic.dll
+F:\Amin\Personal\Programming\Project\Demo\DDD\.vs\DDD\v17\lut\0\i\DDD.Logic\Debug\net6.0\ref\DDD.Logic.dll

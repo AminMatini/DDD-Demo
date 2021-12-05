@@ -1,0 +1,12 @@
+F:\Amin\Personal\Programming\Project\Demo\DDD\.vs\DDD\v17\lut\0\b\DDD.Tests\Debug\net6.0\DDD.Tests.deps.json
+F:\Amin\Personal\Programming\Project\Demo\DDD\.vs\DDD\v17\lut\0\b\DDD.Tests\Debug\net6.0\DDD.Tests.runtimeconfig.json
+F:\Amin\Personal\Programming\Project\Demo\DDD\.vs\DDD\v17\lut\0\b\DDD.Tests\Debug\net6.0\DDD.Tests.dll
+F:\Amin\Personal\Programming\Project\Demo\DDD\.vs\DDD\v17\lut\0\b\DDD.Tests\Debug\net6.0\ref\DDD.Tests.dll
+F:\Amin\Personal\Programming\Project\Demo\DDD\.vs\DDD\v17\lut\0\i\DDD.Tests\Debug\net6.0\DDD.Tests.GeneratedMSBuildEditorConfig.editorconfig
+F:\Amin\Personal\Programming\Project\Demo\DDD\.vs\DDD\v17\lut\0\i\DDD.Tests\Debug\net6.0\DDD.Tests.AssemblyInfoInputs.cache
+F:\Amin\Personal\Programming\Project\Demo\DDD\.vs\DDD\v17\lut\0\i\DDD.Tests\Debug\net6.0\DDD.Tests.AssemblyInfo.cs
+F:\Amin\Personal\Programming\Project\Demo\DDD\.vs\DDD\v17\lut\0\i\DDD.Tests\Debug\net6.0\DDD.Tests.csproj.CopyComplete
+F:\Amin\Personal\Programming\Project\Demo\DDD\.vs\DDD\v17\lut\0\i\DDD.Tests\Debug\net6.0\DDD.Tests.dll
+F:\Amin\Personal\Programming\Project\Demo\DDD\.vs\DDD\v17\lut\0\i\DDD.Tests\Debug\net6.0\ref\DDD.Tests.dll
+F:\Amin\Personal\Programming\Project\Demo\DDD\.vs\DDD\v17\lut\0\i\DDD.Tests\Debug\net6.0\DDD.Tests.genruntimeconfig.cache
+F:\Amin\Personal\Programming\Project\Demo\DDD\.vs\DDD\v17\lut\0\i\DDD.Tests\Debug\net6.0\DDD.Tests.csproj.AssemblyReference.cache

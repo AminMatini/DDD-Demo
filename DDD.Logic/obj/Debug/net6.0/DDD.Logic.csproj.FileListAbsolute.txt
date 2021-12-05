@@ -1,0 +1,12 @@
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Logic\obj\Debug\net6.0\DDD.Logic.csproj.AssemblyReference.cache
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Logic\obj\Debug\net6.0\DDD.Logic.GeneratedMSBuildEditorConfig.editorconfig
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Logic\obj\Debug\net6.0\DDD.Logic.AssemblyInfoInputs.cache
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Logic\obj\Debug\net6.0\DDD.Logic.AssemblyInfo.cs
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Logic\obj\Debug\net6.0\DDD.Logic.csproj.CoreCompileInputs.cache
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Logic\bin\Debug\net6.0\DDD.Logic.deps.json
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Logic\bin\Debug\net6.0\DDD.Logic.dll
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Logic\bin\Debug\net6.0\ref\DDD.Logic.dll
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Logic\bin\Debug\net6.0\DDD.Logic.pdb
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Logic\obj\Debug\net6.0\DDD.Logic.dll
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Logic\obj\Debug\net6.0\ref\DDD.Logic.dll
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.Logic\obj\Debug\net6.0\DDD.Logic.pdb

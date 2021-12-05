@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "80f50361-f371-43a1-8c2b-c916019a126b": {
+      "ProjectGuid": "80f50361-f371-43a1-8c2b-c916019a126b",
+      "DisplayName": "DDD.Logic",
+      "ColorIndex": 0
+    },
+    "fa427a2b-a6ad-4ee9-a168-e585870b0872": {
+      "ProjectGuid": "fa427a2b-a6ad-4ee9-a168-e585870b0872",
+      "DisplayName": "DDD.Tests",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "03a31a2b-4414-4ca9-9a79-e1e01048345a": {
+      "ProjectGuid": "03a31a2b-4414-4ca9-9a79-e1e01048345a",
+      "DisplayName": "DDD.UI",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
