@@ -24,5 +24,10 @@ namespace DDD.UI
         {
             InitializeComponent();
         }
+
+        public void ShowMessage(object sender , RoutedEventArgs args)
+        {
+            MessageBox.Show("hello gyus");
+        }
     }
 }

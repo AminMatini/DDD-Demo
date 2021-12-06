@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "DDD.UI/1.0.0": {
+        "dependencies": {
+          "DDD.Logic": "1.0.0"
+        },
         "runtime": {
           "DDD.UI.dll": {}
+        }
+      },
+      "DDD.Logic/1.0.0": {
+        "runtime": {
+          "DDD.Logic.dll": {}
         }
       }
     }
   },
   "libraries": {
     "DDD.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DDD.Logic/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

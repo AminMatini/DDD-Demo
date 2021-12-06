@@ -19,6 +19,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DDD.Logic\DDD.Logic.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="Images\10c.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>

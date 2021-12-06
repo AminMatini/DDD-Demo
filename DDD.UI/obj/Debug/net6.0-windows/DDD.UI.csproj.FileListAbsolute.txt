@@ -21,3 +21,9 @@ F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.UI\obj\Debug\net6.0-windows\DD
 F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.UI\obj\Debug\net6.0-windows\DDD.UI.genruntimeconfig.cache
 F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.UI\obj\Debug\net6.0-windows\Common\ImageResource.baml
 F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.UI\obj\Debug\net6.0-windows\App.baml
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.UI\obj\Debug\net6.0-windows\Views\SnackMachineView.g.cs
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.UI\obj\Debug\net6.0-windows\Views\SnackMachineView.baml
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.UI\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.UI\bin\Debug\net6.0-windows\DDD.Logic.dll
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.UI\bin\Debug\net6.0-windows\DDD.Logic.pdb
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.UI\obj\Debug\net6.0-windows\DDD.UI.csproj.CopyComplete

@@ -87,6 +87,8 @@
         }
 
 
+        #region Method
+
         protected override bool EqualsCore(Money core)
         {
             return
@@ -109,5 +111,16 @@
 
             return hashCode;
         }
+
+        public override string ToString()
+        {
+            if(Amount < 1)
+                return (Amount * 100).ToString("0") + " Cent";
+
+            return "$" + Amount.ToString("0.00");
+            
+        }
+
+        #endregion
     }
 }
