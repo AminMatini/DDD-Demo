@@ -54,7 +54,7 @@ namespace DDD.UI.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DDD.UI;component/views/snackmachineview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DDD.UI;V1.0.0.0;component/views/snackmachineview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\SnackMachineView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
