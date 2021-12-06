@@ -2,6 +2,8 @@
 {
     public class Money : ValueObject<Money>
     {
+        #region Constructor
+
         public readonly static Money None = new Money(0, 0, 0, 0, 0, 0);
         public readonly static Money OneCent = new Money(1, 0, 0, 0, 0, 0);
         public readonly static Money TenCent = new Money(0, 1, 0, 0, 0, 0);
@@ -9,25 +11,6 @@
         public readonly static Money OneDollar = new Money(0, 0, 0, 1, 0, 0);
         public readonly static Money FiveDollar = new Money(0, 0, 0, 0, 1, 0);
         public readonly static Money TwentyDollar = new Money(0, 0, 0, 0, 0, 1);
-
-        public int OneCentCount { get; }
-        public int TenCentCount { get; }
-        public int QuarterCount { get; }
-        public int OneDollarCount { get; }
-        public int FiveDollarCount { get; }
-        public int TwentyDollarCount { get; }
-        public decimal Amount
-        {
-            get
-            {
-                return OneCentCount * 0.01m +
-                       TenCentCount * 0.1m +
-                       QuarterCount * 0.25m +
-                       OneDollarCount +
-                       FiveDollarCount * 5 +
-                       TwentyDollarCount * 20;
-            }
-        }
 
         public Money(
             int oneCentCount,
@@ -58,6 +41,33 @@
             TwentyDollarCount += twentyDollarCount;
         }
 
+        #endregion
+
+        #region Properties
+
+        public int OneCentCount { get; }
+        public int TenCentCount { get; }
+        public int QuarterCount { get; }
+        public int OneDollarCount { get; }
+        public int FiveDollarCount { get; }
+        public int TwentyDollarCount { get; }
+        public decimal Amount
+        {
+            get
+            {
+                return OneCentCount * 0.01m +
+                       TenCentCount * 0.1m +
+                       QuarterCount * 0.25m +
+                       OneDollarCount +
+                       FiveDollarCount * 5 +
+                       TwentyDollarCount * 20;
+            }
+        }
+
+        #endregion
+
+        #region Method
+
         public static Money operator +(Money money1, Money money2)
         {
             Money sum = new Money(
@@ -85,9 +95,6 @@
 
             return sum;
         }
-
-
-        #region Method
 
         protected override bool EqualsCore(Money core)
         {
