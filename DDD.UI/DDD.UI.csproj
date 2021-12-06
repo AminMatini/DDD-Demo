@@ -8,7 +8,27 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Images\" />
+    <None Remove="Images\10c.png" />
+    <None Remove="Images\1c.png" />
+    <None Remove="Images\1d.png" />
+    <None Remove="Images\20d.png" />
+    <None Remove="Images\25c.png" />
+    <None Remove="Images\5d.png" />
+    <None Remove="Images\Chocolate.png" />
+    <None Remove="Images\Gum.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\10c.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\1c.png" />
+    <Resource Include="Images\1d.png" />
+    <Resource Include="Images\20d.png" />
+    <Resource Include="Images\25c.png" />
+    <Resource Include="Images\5d.png" />
+    <Resource Include="Images\Chocolate.png" />
+    <Resource Include="Images\Gum.png" />
   </ItemGroup>
 
 </Project>

@@ -19,3 +19,5 @@ F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.UI\obj\Debug\net6.0-windows\DD
 F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.UI\obj\Debug\net6.0-windows\ref\DDD.UI.dll
 F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.UI\obj\Debug\net6.0-windows\DDD.UI.pdb
 F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.UI\obj\Debug\net6.0-windows\DDD.UI.genruntimeconfig.cache
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.UI\obj\Debug\net6.0-windows\Common\ImageResource.baml
+F:\Amin\Personal\Programming\Project\Demo\DDD\DDD.UI\obj\Debug\net6.0-windows\App.baml

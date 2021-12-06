@@ -1,0 +1,9 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <BitmapImage x:Key="1cent" UriSource="../Images/1c.png"></BitmapImage>
+    <BitmapImage x:Key="10cent" UriSource="../Images/10c.png"></BitmapImage>
+    <BitmapImage x:Key="25cent" UriSource="../Images/25c.png"></BitmapImage>
+    <BitmapImage x:Key="1dollar" UriSource="../Images/1d.png"></BitmapImage>
+    <BitmapImage x:Key="5dollar" UriSource="../Images/5d.png"></BitmapImage>
+    <BitmapImage x:Key="20dollar" UriSource="../Images/20d.png"></BitmapImage>
+</ResourceDictionary>
