@@ -8,71 +8,72 @@ namespace DDD.UI.ViewModels
     {
         #region Constructor
 
-        private readonly SnackMachine _snackMachine;
         public SnackMachineViewModel()
         {
             this._snackMachine = new SnackMachine();
-            InsertOneCentMoneyCommand = new Command(() => InsertOneCent());
-            InsertTenCentMoneyCommand = new Command(() => InsertTenCent());
-            InsertQuarterCentMoneyCommand = new Command(() => InsertQuarterCent());
-            InsertOneDollarMoneyCommand = new Command(() => InsertOneDollar());
-            InsertFiveDollarMoneyCommand = new Command(() => InsertFiveDollar());
-            InsertTwentyDollarMoneyCommand = new Command(() => InsertTwentyDollar());
+            InsertOneCentMoneyCommand = new Command(() => InsertMoney(Money.OneCent));
+            InsertTenCentMoneyCommand = new Command(() => InsertMoney(Money.TenCent));
+            InsertQuarterCentMoneyCommand = new Command(() => InsertMoney(Money.QuarterCent));
+            InsertOneDollarMoneyCommand = new Command(() => InsertMoney(Money.OneDollar));
+            InsertFiveDollarMoneyCommand = new Command(() => InsertMoney(Money.FiveDollar));
+            InsertTwentyDollarMoneyCommand = new Command(() => InsertMoney(Money.TwentyDollar));
+            ReturnMoneyCommand = new Command(() => ReturnMoney());
+            BuySnackCommand = new Command(() => BuySnack());
         }
 
         #endregion
 
         #region Properties
 
+        private readonly SnackMachine _snackMachine;
         public override string PageTitle => "Snack Machin Page";
         public string MoneyInTranaction => _snackMachine.MoneyInTransaction.ToString();
+        public string MoneyInSideAmount => MoneyInSide.Amount.ToString();
+        public Money MoneyInSide => _snackMachine.MoneyInside + _snackMachine.MoneyInTransaction;
+
+        #endregion
+
+        #region Command
+
         public Command InsertOneCentMoneyCommand { get; set; }
         public Command InsertTenCentMoneyCommand { get; set; }
         public Command InsertQuarterCentMoneyCommand { get; set; }
         public Command InsertOneDollarMoneyCommand { get; set; }
         public Command InsertFiveDollarMoneyCommand { get; set; }
         public Command InsertTwentyDollarMoneyCommand { get; set; }
+        public Command ReturnMoneyCommand { get; set; }
+        public Command BuySnackCommand { get; set; }
 
         #endregion
 
         #region Method
 
-        private void InsertOneCent()
+        private void InsertMoney(Money money)
         {
-            this._snackMachine.InsertMoney(Money.OneCent);
-            Notify("MoneyInTranaction");
+            this._snackMachine.InsertMoney(money);
+            NotifyClient();
         }
 
-        private void InsertTenCent()
+        private void ReturnMoney()
         {
-            this._snackMachine.InsertMoney(Money.TenCent);
-            Notify("MoneyInTranaction");
+            this._snackMachine.ReturnMoney();
+            NotifyClient();
         }
 
-        private void InsertQuarterCent()
+        public void BuySnack()
         {
-            this._snackMachine.InsertMoney(Money.QuarterCent);
-            Notify("MoneyInTranaction");
+            this._snackMachine.BuySnack();
+            NotifyClient();
+
+
         }
 
-        private void InsertOneDollar()
+        public void NotifyClient()
         {
-            this._snackMachine.InsertMoney(Money.OneDollar);
-            Notify("MoneyInTranaction");
+            Notify(nameof(MoneyInTranaction));
+            Notify(nameof(MoneyInSide));
+            Notify(nameof(MoneyInSideAmount));
         }
-
-        private void InsertFiveDollar()
-        {
-            this._snackMachine.InsertMoney(Money.FiveDollar);
-            Notify("MoneyInTranaction");
-        }
-
-        private void InsertTwentyDollar()
-        {
-            this._snackMachine.InsertMoney(Money.TwentyDollar);
-            Notify("MoneyInTranaction");
-        }
-
 
         #endregion
     }

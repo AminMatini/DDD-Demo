@@ -32,7 +32,7 @@ namespace DDD.Logic
         {
             MoneyInside += MoneyInTransaction;
 
-            // MoneyInTransaction = 0;
+            MoneyInTransaction = None;
         }
 
         #endregion
